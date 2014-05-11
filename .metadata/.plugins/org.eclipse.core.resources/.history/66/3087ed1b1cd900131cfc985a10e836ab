@@ -82,7 +82,9 @@
 			return false;
 		}
 		
-		//fin de las validaciones php
+		
+		
+		
 		
 		
 		//Consulta para insertar los Datos del registro en la BD;

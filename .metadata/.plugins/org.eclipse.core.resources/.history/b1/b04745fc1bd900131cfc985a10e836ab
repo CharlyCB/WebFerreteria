@@ -72,17 +72,10 @@
 			return false;
 		}
 		
-		//contraseña
-		if($registro[1] != $registro[2]){
-			echo "Las contraseñas no coinciden.";
-			return false;
-		}
-		else if(strlen($registro[1]) < 6){
-			echo "La contraseña debe tener almenos 6 digitos.";
-			return false;
-		}
 		
-		//fin de las validaciones php
+		
+		
+		
 		
 		
 		//Consulta para insertar los Datos del registro en la BD;
