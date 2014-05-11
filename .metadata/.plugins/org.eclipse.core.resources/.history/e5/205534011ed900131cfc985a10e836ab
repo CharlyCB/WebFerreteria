@@ -91,5 +91,7 @@
 		
 		//lanzamos consulta para insertar los datos en la BD;
 		$res = mysql_query($query) or die('Consulta fallida: ' . mysql_error());
+	
+	
 
 ?>
