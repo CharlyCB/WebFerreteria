@@ -1,0 +1,57 @@
+<?php
+//esta parte debe estar colocada en la parte del propio menu donde pone Productos, para que se genere una lista con las familias y subfamilias.
+
+
+//Conectamos BD
+	$link = mysql_connect('localhost', 'user', 'contraseña') or die('No se pudo conectar: ' . mysql_error());
+				echo 'Connected successfully';
+				
+		mysql_select_db('prueba') or die('No se pudo seleccionar la base de datos');
+		
+		//Realizar una consulta MySQL
+		//con el GROUP BY no repetira familias en la consulta.
+		//La siguiente consulta obtiene las familias
+		$query = "SELECT familia FROM productos GROUP BY familia";
+		
+		//Lanzar consulta a la BD
+		$res = mysql_query($query) or die('Consulta fallida: ' . mysql_error());
+		$filas = mysql_num_rows($res);
+		
+		//mostrar familia y subfmilia
+		
+		//1º For muestra familia y consultamos las subfamilias de esa familia:
+		//2º For muestra las subfamilias.
+		echo "<ul>";
+		for ($i = 0; $i < $filas; $i++) {
+			//Obtenemos valor de familia
+			$familia_pro[$i] = mysql_result($res, $i, "familia");
+			
+			//Consultamos subfamilia
+			$query2 = "SELECT familia FROM productos WHERE familia='$familia_pro[$i]' GROUP BY subfamilia";
+			$res2 = mysql_query($query2) or die('Consulta fallida: ' . mysql_error());
+			$filas2 = mysql_num_rows($res2);
+			
+			//Mostramos subfamilia
+			echo "<li> $familia_pro[$i] <ul>";
+			for($b = 0; $b < $filas2; $b++){
+				//obtenemos valor de subfamilia:
+				$subfamilia_pro[$b] = mysql_result($res2, $b, "subfamilia");
+				
+				//mostramos todas las subfamilias de la familia padre (familia_pro);
+				echo "<li> $subfamilia_pro[$i] </li>";
+				
+			}		
+		}
+		//TODO añadir direccion de enlace a la familia y subfamilia
+		
+		//TODO crear una variable de sesion que llevara a una pagina de consulta
+		//donde se mostraran los productos segun la familia o subfamilia seleccionada
+		
+		//ANTES DEL VIERNES
+		
+?>
+
+
+
+
+

@@ -1,0 +1,78 @@
+<html>
+	
+	<head>
+<script language="JavaScript">
+
+	function cadenatext() {
+		var cadena = document.getElementById('cadena').value;
+		
+		if(cadena == "" || cadena == null || cadena == " "){
+			alert("el campo debe estar completo");
+		}
+		else if (isNaN(cadena)){
+			alert("el campo no debe contener numeros");
+		}
+	}
+	
+	function telefono(){
+		var telf = document.getElementById('telf').value;
+		
+		if(telf == "" || telf == null || telf == " "){
+			alert("El campo debe estar completo");
+		}
+		else if(isNaN(telf)== false){
+			alert("El campo debe estar compuesto por numeros");
+		}
+		else if(telf.length != 9){
+			alert("el telefono debe componerse de 9 digitos");
+		}
+	}
+	
+	function email(){
+		var email = document.getElementById('email').value;
+		
+		if( !(/\w+([-+.']\w+)*@\w+([-.]\w+)*\.\w+([-.]\w+)/.test(email)) ) {
+ 			 return false;
+		}
+	}
+	
+	
+	function dnivalidar(){
+		var dni = document.getElementById("dni").value;
+		var letras = ['T', 'R', 'W', 'A', 'G', 'M', 'Y', 'F', 'P', 'D', 'X', 'B', 'N', 'J', 'Z', 'S', 'Q', 'V', 'H', 'L', 'C', 'K', 'E', 'T'];
+		 
+		if( !(/^\d{8}[A-Z]$/.test(dni)) ) {
+		  return false;
+		}
+		 
+		if(dni.charAt(8) != letras[(dni.substring(0, 8))%23]) {
+		  return false;
+		}
+	}
+	
+	
+	function codpostal(){
+		var codigo = document.getElementById('codpostal').value;
+		if(isNaN(codigo)){
+			return false;
+		}
+	}
+	
+	function vloggin(){
+		
+			var logi = new Array('');
+			
+			logi[0] = document.getElementById('username');
+			logi[1] = document.getElementById('userpass');
+			
+			for(var i = 0 ; i<logi.length;i++){
+				if(logi[i] == "" || logi[i] == " " || logi[i] == null){
+					alert("debe introducir correo y usuario");
+					return false;
+				}
+			}
+			
+		}
+</script>
+</head>
+</html>
