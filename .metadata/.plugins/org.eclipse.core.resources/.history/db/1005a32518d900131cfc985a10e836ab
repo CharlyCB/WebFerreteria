@@ -1,0 +1,40 @@
+<?php
+	//Conectamos BD
+	$link = mysql_connect('localhost', 'user', 'contraseña') or die('No se pudo conectar: ' . mysql_error());
+				echo 'Connected successfully';
+				
+		mysql_select_db('prueba') or die('No se pudo seleccionar la base de datos');
+		
+		//Obtenemos los datos del formulatio de registro:
+		
+		//Los campos son: correo, contra, contra2 (repetida), nombre, apellidos, telefono
+		//direccion, ciudad, cod_postal, provincia.
+		
+		//obtenemos los valores del formulario
+		//se obtiene en un Array para facilitar su validación.
+		$registro[0] = trim($_POST['correo']); //varchar
+		$registro[1] = trim($_POST['contra']); //varchar
+		$registro[2] = trim($_POST['contra2']); //varchar, [1] =  [2]
+		$registro[3] = trim($_POST['nombre']); //varchar
+		$registro[4] = trim($_POST['apellidos']); //varchar
+		$registro[5] = trim($_POST['telefono']); //int
+		$registro[6] = trim($_POST['direccion']); //varchar
+		$registro[7] = trim($_POST['ciudad']); //varchar
+		$registro[8] = trim($_POST['cod_postal']); //int, max length 5
+		$registro[9] = trim($_POST['provincia']); //varchar
+		
+		
+		
+		
+		
+		
+		//Consulta para insertar los Datos del registro en la BD;
+		$query = "INSERT INTO cliente(email,password,nombre,apellidos,dni,telf,direccion,pais,ciudad,codpostal,dir_envio) 
+		VALUES ('$registro[0]','$registro[1]','$registro[2]','$registro[3]','$registro[4]','$registro[5]','$registro[6]','$registro[7]','$registro[8]','$registro[9]')";
+		
+		//lanzamos consulta para insertar los datos en la BD;
+		$res = mysql_query($query) or die('Consulta fallida: ' . mysql_error());
+	
+	
+
+?>

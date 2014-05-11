@@ -1,0 +1,13 @@
+<html>
+	<head>
+		
+	</head>
+	<body>
+		<?php
+			$cadena = "Artemisa";
+			
+			$ext = str_split($cadena);
+			echo "$ext[1]";			
+		?>
+	</body>
+</html>
