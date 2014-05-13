@@ -82,7 +82,31 @@
 			return false;
 		}
 		
+		//Comprobar que el Correo no existe en la BD
+		$query2 = "SELECT email FROM cliente";
+		$res2 = mysql_query($query2) or die('Consulta fallida: ' . mysql_error());
+		
+		$filas = mysql_num_rows($res2);
+	
+		//Variable de comprobación
+		$exist = 0;
+	
+		if ($filas != 0) {
+			//obtenemos el valor del campo email de la BD
+			for ($i = 0; $i < 5; $i++) {
+				$bdmail[$i] = mysql_result($res, $i, "email");
+				if ($bdmail[$i] == $registro[0]) {
+					//si existe la variable exist cambia a 1
+					$exist = 1;
+				}
+			}
+		}
+		if ($exist == 0) {
+			echo "El email que ha introducido ya existe en nuestra BD";
+			return false;
+		}
 		//fin de las validaciones php
+		
 		
 		
 		//Consulta para insertar los Datos del registro en la BD;
