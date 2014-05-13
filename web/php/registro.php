@@ -108,7 +108,6 @@
 		//fin de las validaciones php
 		
 		
-		
 		//Consulta para insertar los Datos del registro en la BD;
 		$query = "INSERT INTO cliente(email,password,nombre,apellidos,dni,telf,direccion,pais,ciudad,codpostal,dir_envio) 
 		VALUES ('$registro[0]','$registro[1]','$registro[2]','$registro[3]','$registro[4]','$registro[5]','$registro[6]','$registro[7]','$registro[8]','$registro[9]')";

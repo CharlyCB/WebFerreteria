@@ -14,7 +14,11 @@
 	    echo "<body> \n";
 	} //Fin de la funcion cabecera_html
 	
-	function pie_html(){
+	function menu($titulo_pagina){
+		
+	}
+	
+	function pie_html($ttitulo_pagina){
 	    //Inserta el pie HTML de una p‡gina web
 	    echo "</body> \n";
 	    echo "</html>";
