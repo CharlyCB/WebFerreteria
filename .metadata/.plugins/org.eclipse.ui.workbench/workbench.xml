@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<workbench progressCount="24" version="2.0">
+<workbench progressCount="53" version="2.0">
 <workbenchAdvisor/>
-<window height="940" maximized="true" width="1200" x="208" y="100">
+<window height="940" maximized="true" width="1200" x="394" y="-8">
 <fastViewData fastViewLocation="1024"/>
 <perspectiveBar>
 <itemSize x="160"/>
@@ -17,6 +17,7 @@
 <coolItem id="group.nav" itemType="typeGroupMarker"/>
 <coolItem id="org.eclipse.ui.workbench.navigate" itemType="typeToolBarContribution" x="91" y="22"/>
 <coolItem id="group.editor" itemType="typeGroupMarker"/>
+<coolItem id="com.aptana.editor.php" itemType="typeToolBarContribution" x="-1" y="-1"/>
 <coolItem id="group.help" itemType="typeGroupMarker"/>
 <coolItem id="org.eclipse.ui.workbench.help" itemType="typeToolBarContribution" x="-1" y="-1"/>
 </coolbarLayout>
@@ -27,18 +28,77 @@
 <folder appearance="1" expanded="2">
 <presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
 <part id="0"/>
+<part id="1"/>
+<part id="2"/>
+<part id="3"/>
+<part id="4"/>
+<part id="5"/>
+<part id="6"/>
+<part id="7"/>
+<part id="8"/>
+<part id="9"/>
+<part id="10"/>
 </presentation>
 </folder>
 </info>
 </editorArea>
+<editor id="com.aptana.editor.php" name="novedades.php" partName="novedades.php" path="C:/Users/Pccom/Documents/GitHub/WebFerreteria/web/php/novedades.php" title="novedades.php" tooltip="web/php/novedades.php" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/web/php/novedades.php"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="32" selectionTopPixel="0"/>
+</editor>
+<editor id="com.aptana.editor.php" name="menuProducto.php" partName="menuProducto.php" path="C:/Users/Pccom/Documents/GitHub/WebFerreteria/web/php/menuProducto.php" title="menuProducto.php" tooltip="web/php/menuProducto.php" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/web/php/menuProducto.php"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1691" selectionTopPixel="330"/>
+</editor>
+<editor id="com.aptana.editor.php" name="carrito.php" partName="carrito.php" path="C:/Users/Pccom/Documents/GitHub/WebFerreteria/web/php/carrito.php" title="carrito.php" tooltip="web/php/carrito.php" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/web/php/carrito.php"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1493" selectionTopPixel="0"/>
+</editor>
+<editor id="com.aptana.editor.php" name="registro.php" partName="registro.php" path="C:/Users/Pccom/Documents/GitHub/WebFerreteria/web/php/registro.php" title="registro.php" tooltip="web/php/registro.php" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/web/php/registro.php"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="867"/>
+</editor>
+<editor id="com.aptana.editor.php" name="familia.php" partName="familia.php" path="C:/Users/Pccom/Documents/GitHub/WebFerreteria/web/php/familia.php" title="familia.php" tooltip="web/php/familia.php" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/web/php/familia.php"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="32" selectionTopPixel="0"/>
+</editor>
+<editor id="com.aptana.editor.php" name="conexion BD.php" partName="conexion BD.php" path="C:/Users/Pccom/Documents/GitHub/WebFerreteria/web/php/conexion BD.php" title="conexion BD.php" tooltip="web/php/conexion BD.php" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/web/php/conexion BD.php"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="978" selectionTopPixel="0"/>
+</editor>
+<editor activePart="true" focus="true" id="com.aptana.editor.php" name="validaciones.php" partName="validaciones.php" path="C:/Users/Pccom/Documents/GitHub/WebFerreteria/web/php/validaciones.php" title="validaciones.php" tooltip="web/php/validaciones.php" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/web/php/validaciones.php"/>
+<editorState selectionHorizontalPixel="0" selectionLength="105" selectionOffset="704" selectionTopPixel="306"/>
+</editor>
+<editor id="com.aptana.editor.php" name="pruebas.php" partName="pruebas.php" path="C:/Users/Pccom/Documents/GitHub/WebFerreteria/web/php/pruebas.php" title="pruebas.php" tooltip="web/php/pruebas.php" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/web/php/pruebas.php"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="174" selectionTopPixel="0"/>
+</editor>
+<editor id="com.aptana.editor.php" name="login.php" partName="login.php" path="C:/Users/Pccom/Documents/GitHub/WebFerreteria/web/php/login.php" title="login.php" tooltip="web/php/login.php" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/web/php/login.php"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="816" selectionTopPixel="102"/>
+</editor>
+<editor id="com.aptana.editor.php" name="botonanadir.php" partName="botonanadir.php" path="C:/Users/Pccom/Documents/GitHub/WebFerreteria/web/php/botonanadir.php" title="botonanadir.php" tooltip="web/php/botonanadir.php" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/web/php/botonanadir.php"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="0"/>
+</editor>
+<editor id="com.aptana.editor.php" name="config.php" partName="config.php" path="C:/Users/Pccom/Documents/GitHub/WebFerreteria/web/php/config.php" title="config.php" tooltip="web/php/config.php" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/web/php/config.php"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="0"/>
+</editor>
 </editors>
 <views>
-<view id="org.eclipse.ui.navigator.ProjectExplorer" partName="Project Explorer"/>
+<view id="org.eclipse.ui.navigator.ProjectExplorer" partName="Project Explorer">
+<viewState CommonNavigator.LINKING_ENABLED="0" org.eclipse.ui.navigator.resources.workingSets.showTopLevelWorkingSets="0"/>
+</view>
 <view id="com.aptana.snippets.ui.views.SnippetsView" partName="Snippets"/>
 <view id="com.aptana.terminal.views.terminal" partName="Terminal"/>
 <view id="com.aptana.samples.ui.SamplesView" partName="Samples"/>
 <view id="org.eclipse.ui.views.ProblemView" partName="Problems">
 <viewState PRIMARY_SORT_FIELD="org.eclipse.ui.ide.severityAndDescriptionField" categoryGroup="org.eclipse.ui.ide.severity" markerContentGenerator="org.eclipse.ui.ide.problemsGenerator" partName="Problems">
+<expanded>
+<category IMemento.internal.id="Errors (1 item)"/>
+</expanded>
 <columnWidths org.eclipse.ui.ide.locationField="90" org.eclipse.ui.ide.markerType="90" org.eclipse.ui.ide.pathField="120" org.eclipse.ui.ide.resourceField="90" org.eclipse.ui.ide.severityAndDescriptionField="300"/>
 <visible IMemento.internal.id="org.eclipse.ui.ide.severityAndDescriptionField"/>
 <visible IMemento.internal.id="org.eclipse.ui.ide.resourceField"/>
@@ -53,8 +113,12 @@
 <view id="com.aptana.explorer.view" partName="App Explorer">
 <viewState CommonNavigator.LINKING_ENABLED="0" GitChangedFilesFilterEnabled="" activeProject="web">
 <project name="web">
+<expanded>
+<element path="/web/Javascript"/>
+<element path="/web/php"/>
+</expanded>
 <selection>
-<element path="/web"/>
+<element path="/web/php/validaciones.php"/>
 </selection>
 </project>
 </viewState>
@@ -63,7 +127,7 @@
 <viewState/>
 </view>
 </views>
-<perspectives activePart="com.aptana.explorer.view" activePerspective="com.aptana.ui.WebPerspective">
+<perspectives activePart="com.aptana.editor.php" activePerspective="com.aptana.ui.WebPerspective">
 <perspective editorAreaTrimState="2" editorAreaVisible="1" fixed="0" version="0.016">
 <descriptor class="com.aptana.ui.internal.WebPerspectiveFactory" id="com.aptana.ui.WebPerspective" label="Web"/>
 <alwaysOnActionSet id="com.aptana.browser.actionSet"/>
@@ -164,7 +228,176 @@
 </perspective>
 </perspectives>
 <workingSets/>
-<navigationHistory/>
+<navigationHistory>
+<editors>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.php" path="/web/php/novedades.php"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.php" path="/web/php/registro.php"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.php" path="/web/php/login.php"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.php" path="/web/php/login.php"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.php" path="/web/php/carrito.php"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.php" path="/web/php/botonanadir.php"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.php" path="/web/php/conexion BD.php"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.php" path="/web/php/menuProducto.php"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.php" path="/web/php/novedades.php"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.php" path="/web/php/registro.php"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.php" path="/web/php/login.php"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.php" path="/web/php/pruebas.php"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.php" path="/web/php/botonanadir.php"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.php" path="/web/php/config.php"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.php" path="/web/php/familia.php"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.php" path="/web/php/validaciones.php"/>
+</editors>
+<item historyLabel="registro.php" index="1">
+<position info="not_deleted" x="3052" y="0"/>
+</item>
+<item historyLabel="registro.php" index="1">
+<position info="not_deleted" x="1205" y="0"/>
+</item>
+<item historyLabel="login.php" index="2">
+<position info="not_deleted" x="1762" y="0"/>
+</item>
+<item historyLabel="registro.php" index="1">
+<position info="not_deleted" x="0" y="253"/>
+</item>
+<item historyLabel="login.php" index="2">
+<position info="not_deleted" x="1762" y="0"/>
+</item>
+<item historyLabel="registro.php" index="1">
+<position info="not_deleted" x="3248" y="415"/>
+</item>
+<item historyLabel="login.php" index="2">
+<position info="not_deleted" x="521" y="0"/>
+</item>
+<item historyLabel="novedades.php" index="0">
+<position info="not_deleted" x="523" y="686"/>
+</item>
+<item historyLabel="login.php" index="2">
+<position info="not_deleted" x="335" y="0"/>
+</item>
+<item historyLabel="registro.php" index="1">
+<position info="not_deleted" x="3248" y="415"/>
+</item>
+<item historyLabel="login.php" index="2">
+<position info="not_deleted" x="335" y="0"/>
+</item>
+<item historyLabel="login.php" index="2">
+<position/>
+</item>
+<item historyLabel="login.php" index="2">
+<position info="not_deleted" x="1730" y="0"/>
+</item>
+<item historyLabel="registro.php" index="1">
+<position info="not_deleted" x="3248" y="415"/>
+</item>
+<item historyLabel="login.php" index="3">
+<position info="not_deleted" x="1730" y="0"/>
+</item>
+<item historyLabel="carrito.php" index="4">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="botonanadir.php" index="5">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="carrito.php" index="4">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="conexion BD.php" index="6">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="carrito.php" index="4">
+<position info="not_deleted" x="1493" y="0"/>
+</item>
+<item historyLabel="conexion BD.php" index="6">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="menuProducto.php" index="7">
+<position info="not_deleted" x="1637" y="0"/>
+</item>
+<item historyLabel="novedades.php" index="8">
+<position info="not_deleted" x="550" y="686"/>
+</item>
+<item historyLabel="registro.php" index="9">
+<position info="not_deleted" x="314" y="0"/>
+</item>
+<item historyLabel="novedades.php" index="8">
+<position info="not_deleted" x="1252" y="0"/>
+</item>
+<item historyLabel="menuProducto.php" index="7">
+<position info="not_deleted" x="1691" y="0"/>
+</item>
+<item historyLabel="conexion BD.php" index="6">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="registro.php" index="9">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="novedades.php" index="8">
+<position info="not_deleted" x="1252" y="0"/>
+</item>
+<item historyLabel="login.php" index="10">
+<position info="not_deleted" x="1921" y="0"/>
+</item>
+<item historyLabel="pruebas.php" index="11">
+<position info="not_deleted" x="174" y="0"/>
+</item>
+<item historyLabel="botonanadir.php" index="12">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="carrito.php" index="4">
+<position info="not_deleted" x="1493" y="0"/>
+</item>
+<item historyLabel="conexion BD.php" index="6">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="config.php" index="13">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="familia.php" index="14">
+<position info="not_deleted" x="559" y="0"/>
+</item>
+<item historyLabel="menuProducto.php" index="7">
+<position info="not_deleted" x="1691" y="0"/>
+</item>
+<item historyLabel="login.php" index="10">
+<position info="not_deleted" x="1921" y="0"/>
+</item>
+<item historyLabel="familia.php" index="14">
+<position info="not_deleted" x="559" y="0"/>
+</item>
+<item historyLabel="novedades.php" index="8">
+<position info="not_deleted" x="32" y="0"/>
+</item>
+<item historyLabel="menuProducto.php" index="7">
+<position info="not_deleted" x="1691" y="0"/>
+</item>
+<item historyLabel="login.php" index="10">
+<position info="not_deleted" x="816" y="0"/>
+</item>
+<item historyLabel="familia.php" index="14">
+<position info="not_deleted" x="32" y="0"/>
+</item>
+<item historyLabel="config.php" index="13">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="conexion BD.php" index="6">
+<position info="not_deleted" x="978" y="0"/>
+</item>
+<item historyLabel="config.php" index="13">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="botonanadir.php" index="12">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="pruebas.php" index="11">
+<position info="not_deleted" x="174" y="0"/>
+</item>
+<item historyLabel="registro.php" index="9">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item active="true" historyLabel="validaciones.php" index="15">
+<position info="not_deleted" x="704" y="105"/>
+</item>
+</navigationHistory>
 <input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
 </page>
 <workbenchWindowAdvisor/>
@@ -180,5 +413,39 @@
 </trimArea>
 </trimLayout>
 </window>
-<mruList/>
+<mruList>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.php" name="config.php" tooltip="web/php/config.php">
+<persistable path="/web/php/config.php"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.php" name="botonanadir.php" tooltip="web/php/botonanadir.php">
+<persistable path="/web/php/botonanadir.php"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.php" name="login.php" tooltip="web/php/login.php">
+<persistable path="/web/php/login.php"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.php" name="pruebas.php" tooltip="web/php/pruebas.php">
+<persistable path="/web/php/pruebas.php"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.php" name="validaciones.php" tooltip="web/php/validaciones.php">
+<persistable path="/web/php/validaciones.php"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.php" name="conexion BD.php" tooltip="web/php/conexion BD.php">
+<persistable path="/web/php/conexion BD.php"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.php" name="familia.php" tooltip="web/php/familia.php">
+<persistable path="/web/php/familia.php"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.php" name="registro.php" tooltip="web/php/registro.php">
+<persistable path="/web/php/registro.php"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.php" name="carrito.php" tooltip="web/php/carrito.php">
+<persistable path="/web/php/carrito.php"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.php" name="menuProducto.php" tooltip="web/php/menuProducto.php">
+<persistable path="/web/php/menuProducto.php"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.php" name="novedades.php" tooltip="web/php/novedades.php">
+<persistable path="/web/php/novedades.php"/>
+</file>
+</mruList>
 </workbench>

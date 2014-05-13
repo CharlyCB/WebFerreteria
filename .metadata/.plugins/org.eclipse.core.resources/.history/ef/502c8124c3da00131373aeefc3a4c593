@@ -1,6 +1,4 @@
 <?php
-	//PREGUNTAR PORQUE NO VA
-
 	//Conectamos BD
 	$link = mysql_connect('localhost', 'root', 'root') or die('No se pudo conectar: ' . mysql_error());
 				echo 'Connected successfully';

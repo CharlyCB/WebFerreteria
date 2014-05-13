@@ -46,7 +46,7 @@
 				echo "<td>".mysql_result($res, $a, "cantidad")."</td>";
 				echo "<td>".mysql_result($res, $a, "precio")." €</td>";
 				echo "<td>".mysql_result($res, $a, "cantidad") * mysql_result($res, $a, "precio")." €</td>";
-				echo "<input type='button' id='quitar$a' value='Eliminar' name='quitar' />";
+				echo "<input type='button' id='quitar' value='Eliminar' name='quitar' />";
 				echo "</tr>";
 			}
 		}

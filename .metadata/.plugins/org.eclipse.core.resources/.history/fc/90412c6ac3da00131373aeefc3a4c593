@@ -1,7 +1,4 @@
-<?php
-	//FUNCIONA CORRECTAMENTE
-
-	
+<?php	
 	//muestra las novedades en la pantalla principal
 	
 	
@@ -30,13 +27,13 @@
 			for ($i = 0; $i < $filas; $i++) {
 				$familia_produc[$i] = mysql_result($res, $i, "familia");
 				if($count < 4){
-					echo "<td> <img align='center' src='images/$familia_produc[$i].jpg'/> \n <p align='center'>$familia_produc[$i]</p> </td>";
+					echo "<td> <img align='center' src='images/$familia_produc[$i].jpg'/> \n <p align='center'>$familia_procuc[$i]</p> </td>";
 					$count++;
 				}
 				else {
 					echo "</tr>";
 					echo "<tr>";
-					echo "<td> <img align='center' src='images/$familia_produc[$i].jpg'/> \n <p align='center'>$familia_produc[$i]</p> </td>";
+					echo "<td> <img align='center' src='images/$familia_produc[$i].jpg'/> \n <p align='center'>$familia_procuc[$i]</p> </td>";
 					$count = 0;
 				}
 			}
