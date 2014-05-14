@@ -31,13 +31,11 @@
 			return FALSE;
 		}
 		else {
-			
-			//inicia sesion al logear
 			session_start();
 
 			echo 'Bienvenido';
 			
-			$_SESSION['user']  = $mail;
+			$_SESSION['Usuario']  = $mail;
 			
 			header("location: novedades.php");
 			

@@ -13,10 +13,15 @@
 		
 		$res = mysql_query($query) or die('Consulta fallida: ' . mysql_error());
 		
+		$filas = mysql_num_rows($res);
+	
+		if ($filas != 0) {
+			//obtenemos el id_cliente
+			for ($i = 0; $i < 5; $i++) {
+				$idcliente = mysql_result($res, $i, "id_cliente");
 		
-		//obtenemos el id_cliente
-		$idcliente = mysql_result($res, 0, "id_cliente");
-
+			}
+		}
 		
 		//a traves del id_cliente consultamos el carrito
 		$query2 ="SELECT * FROM carrito WHERE id_cliente = '$idcliente'";

@@ -31,15 +31,15 @@
 			return FALSE;
 		}
 		else {
-			
-			//inicia sesion al logear
 			session_start();
 
 			echo 'Bienvenido';
 			
-			$_SESSION['user']  = $mail;
-			
-			header("location: novedades.php");
-			
+			$_SESSION['Usuario']  = $mail;
 		} 	
+		
+						//Iniciar sesion
+						//TODO incorporar las variables de sesion para logear correctamente en la pagina.
+						header("location: novedades.php");
+
 ?>
