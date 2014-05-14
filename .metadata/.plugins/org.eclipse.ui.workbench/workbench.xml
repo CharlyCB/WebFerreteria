@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <workbench progressCount="53" version="2.0">
 <workbenchAdvisor/>
-<window height="940" maximized="true" width="1200" x="394" y="-8">
+<window height="1040" width="960" x="960" y="0">
 <fastViewData fastViewLocation="1024"/>
 <perspectiveBar>
 <itemSize x="160"/>
@@ -44,23 +44,23 @@
 </editorArea>
 <editor id="com.aptana.editor.php" name="novedades.php" partName="novedades.php" path="C:/Users/Pccom/Documents/GitHub/WebFerreteria/web/php/novedades.php" title="novedades.php" tooltip="web/php/novedades.php" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/web/php/novedades.php"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="32" selectionTopPixel="0"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="32" selectionTopPixel="119"/>
 </editor>
 <editor id="com.aptana.editor.php" name="menuProducto.php" partName="menuProducto.php" path="C:/Users/Pccom/Documents/GitHub/WebFerreteria/web/php/menuProducto.php" title="menuProducto.php" tooltip="web/php/menuProducto.php" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/web/php/menuProducto.php"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1691" selectionTopPixel="330"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1758" selectionTopPixel="363"/>
 </editor>
 <editor id="com.aptana.editor.php" name="carrito.php" partName="carrito.php" path="C:/Users/Pccom/Documents/GitHub/WebFerreteria/web/php/carrito.php" title="carrito.php" tooltip="web/php/carrito.php" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/web/php/carrito.php"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1493" selectionTopPixel="0"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1493" selectionTopPixel="261"/>
 </editor>
 <editor id="com.aptana.editor.php" name="registro.php" partName="registro.php" path="C:/Users/Pccom/Documents/GitHub/WebFerreteria/web/php/registro.php" title="registro.php" tooltip="web/php/registro.php" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/web/php/registro.php"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="867"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="0"/>
 </editor>
 <editor id="com.aptana.editor.php" name="familia.php" partName="familia.php" path="C:/Users/Pccom/Documents/GitHub/WebFerreteria/web/php/familia.php" title="familia.php" tooltip="web/php/familia.php" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/web/php/familia.php"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="32" selectionTopPixel="0"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="32" selectionTopPixel="244"/>
 </editor>
 <editor id="com.aptana.editor.php" name="conexion BD.php" partName="conexion BD.php" path="C:/Users/Pccom/Documents/GitHub/WebFerreteria/web/php/conexion BD.php" title="conexion BD.php" tooltip="web/php/conexion BD.php" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/web/php/conexion BD.php"/>
@@ -68,7 +68,7 @@
 </editor>
 <editor activePart="true" focus="true" id="com.aptana.editor.php" name="validaciones.php" partName="validaciones.php" path="C:/Users/Pccom/Documents/GitHub/WebFerreteria/web/php/validaciones.php" title="validaciones.php" tooltip="web/php/validaciones.php" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/web/php/validaciones.php"/>
-<editorState selectionHorizontalPixel="0" selectionLength="105" selectionOffset="704" selectionTopPixel="306"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1057" selectionTopPixel="357"/>
 </editor>
 <editor id="com.aptana.editor.php" name="pruebas.php" partName="pruebas.php" path="C:/Users/Pccom/Documents/GitHub/WebFerreteria/web/php/pruebas.php" title="pruebas.php" tooltip="web/php/pruebas.php" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/web/php/pruebas.php"/>
@@ -76,11 +76,11 @@
 </editor>
 <editor id="com.aptana.editor.php" name="login.php" partName="login.php" path="C:/Users/Pccom/Documents/GitHub/WebFerreteria/web/php/login.php" title="login.php" tooltip="web/php/login.php" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/web/php/login.php"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="816" selectionTopPixel="102"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="816" selectionTopPixel="414"/>
 </editor>
 <editor id="com.aptana.editor.php" name="botonanadir.php" partName="botonanadir.php" path="C:/Users/Pccom/Documents/GitHub/WebFerreteria/web/php/botonanadir.php" title="botonanadir.php" tooltip="web/php/botonanadir.php" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/web/php/botonanadir.php"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="0"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="569" selectionTopPixel="0"/>
 </editor>
 <editor id="com.aptana.editor.php" name="config.php" partName="config.php" path="C:/Users/Pccom/Documents/GitHub/WebFerreteria/web/php/config.php" title="config.php" tooltip="web/php/config.php" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/web/php/config.php"/>
@@ -96,9 +96,6 @@
 <view id="com.aptana.samples.ui.SamplesView" partName="Samples"/>
 <view id="org.eclipse.ui.views.ProblemView" partName="Problems">
 <viewState PRIMARY_SORT_FIELD="org.eclipse.ui.ide.severityAndDescriptionField" categoryGroup="org.eclipse.ui.ide.severity" markerContentGenerator="org.eclipse.ui.ide.problemsGenerator" partName="Problems">
-<expanded>
-<category IMemento.internal.id="Errors (1 item)"/>
-</expanded>
 <columnWidths org.eclipse.ui.ide.locationField="90" org.eclipse.ui.ide.markerType="90" org.eclipse.ui.ide.pathField="120" org.eclipse.ui.ide.resourceField="90" org.eclipse.ui.ide.severityAndDescriptionField="300"/>
 <visible IMemento.internal.id="org.eclipse.ui.ide.severityAndDescriptionField"/>
 <visible IMemento.internal.id="org.eclipse.ui.ide.resourceField"/>
@@ -118,7 +115,7 @@
 <element path="/web/php"/>
 </expanded>
 <selection>
-<element path="/web/php/validaciones.php"/>
+<element path="/web/php/registro.php"/>
 </selection>
 </project>
 </viewState>
@@ -230,7 +227,6 @@
 <workingSets/>
 <navigationHistory>
 <editors>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.php" path="/web/php/novedades.php"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.php" path="/web/php/registro.php"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.php" path="/web/php/login.php"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.php" path="/web/php/login.php"/>
@@ -246,155 +242,165 @@
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.php" path="/web/php/config.php"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.php" path="/web/php/familia.php"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.php" path="/web/php/validaciones.php"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.php" path="/web/php/botonanadir.php"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.php" path="/web/php/carrito.php"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.php" path="/web/php/conexion BD.php"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.php" path="/web/php/config.php"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.php" path="/web/php/familia.php"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.php" path="/web/php/login.php"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.php" path="/web/php/menuProducto.php"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.php" path="/web/php/novedades.php"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.php" path="/web/php/pruebas.php"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.php" path="/web/php/registro.php"/>
 </editors>
-<item historyLabel="registro.php" index="1">
-<position info="not_deleted" x="3052" y="0"/>
-</item>
-<item historyLabel="registro.php" index="1">
-<position info="not_deleted" x="1205" y="0"/>
-</item>
-<item historyLabel="login.php" index="2">
-<position info="not_deleted" x="1762" y="0"/>
-</item>
-<item historyLabel="registro.php" index="1">
-<position info="not_deleted" x="0" y="253"/>
-</item>
-<item historyLabel="login.php" index="2">
-<position info="not_deleted" x="1762" y="0"/>
-</item>
-<item historyLabel="registro.php" index="1">
-<position info="not_deleted" x="3248" y="415"/>
-</item>
-<item historyLabel="login.php" index="2">
-<position info="not_deleted" x="521" y="0"/>
-</item>
-<item historyLabel="novedades.php" index="0">
-<position info="not_deleted" x="523" y="686"/>
-</item>
-<item historyLabel="login.php" index="2">
-<position info="not_deleted" x="335" y="0"/>
-</item>
-<item historyLabel="registro.php" index="1">
-<position info="not_deleted" x="3248" y="415"/>
-</item>
-<item historyLabel="login.php" index="2">
-<position info="not_deleted" x="335" y="0"/>
-</item>
-<item historyLabel="login.php" index="2">
+<item historyLabel="login.php" index="1">
 <position/>
 </item>
+<item historyLabel="login.php" index="1">
+<position info="not_deleted" x="1730" y="0"/>
+</item>
+<item historyLabel="registro.php" index="0">
+<position info="not_deleted" x="3248" y="415"/>
+</item>
 <item historyLabel="login.php" index="2">
 <position info="not_deleted" x="1730" y="0"/>
 </item>
-<item historyLabel="registro.php" index="1">
-<position info="not_deleted" x="3248" y="415"/>
-</item>
-<item historyLabel="login.php" index="3">
-<position info="not_deleted" x="1730" y="0"/>
-</item>
-<item historyLabel="carrito.php" index="4">
+<item historyLabel="carrito.php" index="3">
 <position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="botonanadir.php" index="5">
+<item historyLabel="botonanadir.php" index="4">
 <position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="carrito.php" index="4">
+<item historyLabel="carrito.php" index="3">
 <position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="conexion BD.php" index="6">
+<item historyLabel="conexion BD.php" index="5">
 <position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="carrito.php" index="4">
+<item historyLabel="carrito.php" index="3">
 <position info="not_deleted" x="1493" y="0"/>
 </item>
-<item historyLabel="conexion BD.php" index="6">
+<item historyLabel="conexion BD.php" index="5">
 <position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="menuProducto.php" index="7">
+<item historyLabel="menuProducto.php" index="6">
 <position info="not_deleted" x="1637" y="0"/>
 </item>
-<item historyLabel="novedades.php" index="8">
+<item historyLabel="novedades.php" index="7">
 <position info="not_deleted" x="550" y="686"/>
 </item>
-<item historyLabel="registro.php" index="9">
+<item historyLabel="registro.php" index="8">
 <position info="not_deleted" x="314" y="0"/>
 </item>
-<item historyLabel="novedades.php" index="8">
+<item historyLabel="novedades.php" index="7">
 <position info="not_deleted" x="1252" y="0"/>
 </item>
-<item historyLabel="menuProducto.php" index="7">
+<item historyLabel="menuProducto.php" index="6">
 <position info="not_deleted" x="1691" y="0"/>
 </item>
-<item historyLabel="conexion BD.php" index="6">
+<item historyLabel="conexion BD.php" index="5">
 <position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="registro.php" index="9">
+<item historyLabel="registro.php" index="8">
 <position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="novedades.php" index="8">
+<item historyLabel="novedades.php" index="7">
 <position info="not_deleted" x="1252" y="0"/>
 </item>
-<item historyLabel="login.php" index="10">
+<item historyLabel="login.php" index="9">
 <position info="not_deleted" x="1921" y="0"/>
 </item>
-<item historyLabel="pruebas.php" index="11">
+<item historyLabel="pruebas.php" index="10">
 <position info="not_deleted" x="174" y="0"/>
 </item>
-<item historyLabel="botonanadir.php" index="12">
+<item historyLabel="botonanadir.php" index="11">
 <position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="carrito.php" index="4">
+<item historyLabel="carrito.php" index="3">
 <position info="not_deleted" x="1493" y="0"/>
 </item>
-<item historyLabel="conexion BD.php" index="6">
+<item historyLabel="conexion BD.php" index="5">
 <position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="config.php" index="13">
+<item historyLabel="config.php" index="12">
 <position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="familia.php" index="14">
+<item historyLabel="familia.php" index="13">
 <position info="not_deleted" x="559" y="0"/>
 </item>
-<item historyLabel="menuProducto.php" index="7">
+<item historyLabel="menuProducto.php" index="6">
 <position info="not_deleted" x="1691" y="0"/>
 </item>
-<item historyLabel="login.php" index="10">
+<item historyLabel="login.php" index="9">
 <position info="not_deleted" x="1921" y="0"/>
 </item>
-<item historyLabel="familia.php" index="14">
+<item historyLabel="familia.php" index="13">
 <position info="not_deleted" x="559" y="0"/>
 </item>
-<item historyLabel="novedades.php" index="8">
+<item historyLabel="novedades.php" index="7">
 <position info="not_deleted" x="32" y="0"/>
 </item>
-<item historyLabel="menuProducto.php" index="7">
+<item historyLabel="menuProducto.php" index="6">
 <position info="not_deleted" x="1691" y="0"/>
 </item>
-<item historyLabel="login.php" index="10">
+<item historyLabel="login.php" index="9">
 <position info="not_deleted" x="816" y="0"/>
 </item>
-<item historyLabel="familia.php" index="14">
+<item historyLabel="familia.php" index="13">
 <position info="not_deleted" x="32" y="0"/>
 </item>
-<item historyLabel="config.php" index="13">
+<item historyLabel="config.php" index="12">
 <position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="conexion BD.php" index="6">
+<item historyLabel="conexion BD.php" index="5">
 <position info="not_deleted" x="978" y="0"/>
 </item>
-<item historyLabel="config.php" index="13">
+<item historyLabel="config.php" index="12">
 <position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="botonanadir.php" index="12">
+<item historyLabel="botonanadir.php" index="11">
 <position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="pruebas.php" index="11">
+<item historyLabel="pruebas.php" index="10">
 <position info="not_deleted" x="174" y="0"/>
 </item>
-<item historyLabel="registro.php" index="9">
+<item historyLabel="registro.php" index="8">
 <position info="not_deleted" x="0" y="0"/>
 </item>
-<item active="true" historyLabel="validaciones.php" index="15">
+<item historyLabel="validaciones.php" index="14">
+<position info="not_deleted" x="704" y="105"/>
+</item>
+<item historyLabel="botonanadir.php" index="15">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="carrito.php" index="16">
+<position info="not_deleted" x="1493" y="0"/>
+</item>
+<item historyLabel="conexion BD.php" index="17">
+<position info="not_deleted" x="978" y="0"/>
+</item>
+<item historyLabel="config.php" index="18">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="familia.php" index="19">
+<position info="not_deleted" x="32" y="0"/>
+</item>
+<item historyLabel="login.php" index="20">
+<position info="not_deleted" x="816" y="0"/>
+</item>
+<item historyLabel="menuProducto.php" index="21">
+<position info="not_deleted" x="1691" y="0"/>
+</item>
+<item historyLabel="novedades.php" index="22">
+<position info="not_deleted" x="32" y="0"/>
+</item>
+<item historyLabel="pruebas.php" index="23">
+<position info="not_deleted" x="174" y="0"/>
+</item>
+<item historyLabel="registro.php" index="24">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item active="true" historyLabel="validaciones.php" index="14">
 <position info="not_deleted" x="704" y="105"/>
 </item>
 </navigationHistory>

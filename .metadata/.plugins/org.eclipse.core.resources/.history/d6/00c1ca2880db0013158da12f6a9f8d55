@@ -91,7 +91,8 @@
 		
 		$res2 = mysql_query($query2) or die('Consulta fallida: ' . mysql_error());
 
-		if (mysql_num_rows($res2) > 0){
+		if (mysql_num_rows($res2) >= 0)
+		{
 			echo "Exite al menos un registro";
 			return false;
 		} 		
@@ -121,19 +122,14 @@
 		
 		$res3 = mysql_query($query3) or die('Consulta fallida - obtener utlimo registro: ' . mysql_error());
 		
-		$id_cliente = mysql_result($res3, 0, "id_cliente");
+		$id_cliente = mysql_result($res2, 0, "email");
 		
-		$id_cliente++;
+		echo "$id_cliente";
 		
-		
-		//NO REALIZA LA INSERCION Y NO SE PORQUE!!!!!
-		//NO REALIZA LA INSERCION Y NO SE PORQUE!!!!!
-		//NO REALIZA LA INSERCION Y NO SE PORQUE!!!!!
-		//NO REALIZA LA INSERCION Y NO SE PORQUE!!!!!
 		
 		//Consulta para insertar los Datos del registro en la BD;
-		$query = "INSERT INTO cliente (id_cliente, email, password,nombre,apellidos,dni,telf,direccion,pais,ciudad,codpostal,dir_envio) 
-		VALUES ('$id_cliente','$registro[0]','$registro[1]','$registro[2]','$registro[3]','$registro[4]','$registro[5]','$registro[6]','$registro[7]','$registro[8]','$registro[9]')";
+		$query = "INSERT INTO cliente(email,password,nombre,apellidos,dni,telf,direccion,pais,ciudad,codpostal,dir_envio) 
+		VALUES ('$registro[0]','$registro[1]','$registro[2]','$registro[3]','$registro[4]','$registro[5]','$registro[6]','$registro[7]','$registro[8]','$registro[9]')";
 		
 		//lanzamos consulta para insertar los datos en la BD;
 		$res = mysql_query($query) or die('Consulta fallida fin php: ' . mysql_error());

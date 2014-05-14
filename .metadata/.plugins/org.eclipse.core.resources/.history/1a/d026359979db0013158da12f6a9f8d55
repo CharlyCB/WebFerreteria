@@ -1,9 +1,9 @@
-﻿<?php
+<?php
 	//Conectamos BD
-	$link = mysql_connect('localhost', 'root', 'root') or die('No se pudo conectar: ' . mysql_error());
+	$link = mysql_connect('localhost', 'user', 'contraseña') or die('No se pudo conectar: ' . mysql_error());
 				echo 'Connected successfully';
 				
-		mysql_select_db('proyecto') or die('No se pudo seleccionar la base de datos');
+		mysql_select_db('prueba') or die('No se pudo seleccionar la base de datos');
 		
 		//Obtenemos los datos del formulatio de registro:
 		
@@ -27,8 +27,6 @@
 		$alfabetico = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ ";		
 		
 		
-		
-		
 		//Inicio de validaciones:
 		for($i = 0 ; $i < count($registro); $i++){
 			if ($registro[$i] == "" ||$registro[$i]  == null || $registro[$i] == " ") {
@@ -50,21 +48,19 @@
 			
 			//comprobamos las secciones Exclusivamente Numericas
 			else if ($i == 5 || $i == 8 ) {
+				if(is_int($registro[$i]) === FALSE){
+					echo "Los campos Telefono y Codigo Postal deben ser exclusivamente numericos.";
+					return false;
+				}
 				//comprueba telefono
-				if (strlen($registro[5]) != 9) {
+				else if (strlen($registro[5]) != 9) {
 					echo "El campo telefono debe contener 9 Digitos.";
 					return FALSE;
 				}
-
 				//comprueba cod postal
 				else if (strlen($registro[8]) != 5){
 					echo "El campo Codigo postal debe contener 5 digitos";
 					return FALSE;
-				}
-				//comprobamos numeros
-				else if(is_nan($registro[$i])){
-					echo "Los campos telf y cod_postal deben ser numericos";
-					return false;
 				}
 			}
 		}
@@ -87,55 +83,36 @@
 		}
 		
 		//Comprobar que el Correo no existe en la BD
-		$query2 = "SELECT email FROM cliente WHERE email = '$registro[0]'";
-		
+		$query2 = "SELECT email FROM cliente";
 		$res2 = mysql_query($query2) or die('Consulta fallida: ' . mysql_error());
-
-		if (mysql_num_rows($res2) > 0){
-			echo "Exite al menos un registro";
-			return false;
-		} 		
-		/*$filas = mysql_num_rows($res2);
+		
+		$filas = mysql_num_rows($res2);
 	
 		//Variable de comprobación
 		$exist = 0;
 	
 		if ($filas != 0) {
 			//obtenemos el valor del campo email de la BD
-			for ($i = 0; $i < $filas; $i++) {
-				$bdmail[$i] = mysql_result($res2, $i, "email");
+			for ($i = 0; $i < 5; $i++) {
+				$bdmail[$i] = mysql_result($res, $i, "email");
 				if ($bdmail[$i] == $registro[0]) {
 					//si existe la variable exist cambia a 1
 					$exist = 1;
 				}
 			}
 		}
-		
 		if ($exist == 0) {
 			echo "El email que ha introducido ya existe en nuestra BD";
 			return false;
-		}*/
-		
+		}
 		//fin de las validaciones php
-		$query3 = "SELECT id_cliente FROM cliente ORDER BY id_cliente DESC LIMIT 1";
 		
-		$res3 = mysql_query($query3) or die('Consulta fallida - obtener utlimo registro: ' . mysql_error());
-		
-		$id_cliente = mysql_result($res3, 0, "id_cliente");
-		
-		$id_cliente++;
-		
-		
-		//NO REALIZA LA INSERCION Y NO SE PORQUE!!!!!
-		//NO REALIZA LA INSERCION Y NO SE PORQUE!!!!!
-		//NO REALIZA LA INSERCION Y NO SE PORQUE!!!!!
-		//NO REALIZA LA INSERCION Y NO SE PORQUE!!!!!
 		
 		//Consulta para insertar los Datos del registro en la BD;
-		$query = "INSERT INTO cliente (id_cliente, email, password,nombre,apellidos,dni,telf,direccion,pais,ciudad,codpostal,dir_envio) 
-		VALUES ('$id_cliente','$registro[0]','$registro[1]','$registro[2]','$registro[3]','$registro[4]','$registro[5]','$registro[6]','$registro[7]','$registro[8]','$registro[9]')";
+		$query = "INSERT INTO cliente(email,password,nombre,apellidos,dni,telf,direccion,pais,ciudad,codpostal,dir_envio) 
+		VALUES ('$registro[0]','$registro[1]','$registro[2]','$registro[3]','$registro[4]','$registro[5]','$registro[6]','$registro[7]','$registro[8]','$registro[9]')";
 		
 		//lanzamos consulta para insertar los datos en la BD;
-		$res = mysql_query($query) or die('Consulta fallida fin php: ' . mysql_error());
+		$res = mysql_query($query) or die('Consulta fallida: ' . mysql_error());
 
 ?>
