@@ -31,11 +31,7 @@
 			return FALSE;
 		}
 		else {
-			session_start();
-
-			echo 'Bienvenido';
-			
-			$_SESSION['Usuario']  = $mail;
+			echo "Conected succefull";
 		} 	
 		
 						//Iniciar sesion
