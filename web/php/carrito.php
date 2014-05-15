@@ -24,7 +24,6 @@
 		$res2 = mysql_query($query2) or die('Consulta fallida: ' . mysql_error());
 		
 		$filas2 = mysql_num_rows($res2);
-		echo "<form method='post' action='eliminar.php'>";
 		echo "<table>";
 		echo "<tr>";
 		echo "<td>Id del producto</td>";
@@ -42,9 +41,9 @@
 				echo "<td>".mysql_result($res, $a, "cantidad")."</td>";
 				echo "<td>".mysql_result($res, $a, "precio")." €</td>";
 				echo "<td>".mysql_result($res, $a, "cantidad") * mysql_result($res, $a, "precio")." €</td>";
-				echo "<input type='button' id='quitar$a' value='Eliminar' name='quitar' />";
+				echo "<input type='button' value='Eliminar'/>";
 				echo "</tr>";
 			}
 		}
-echo "</table></form>";
+echo "</table>";
 ?>
