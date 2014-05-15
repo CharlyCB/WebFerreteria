@@ -39,14 +39,10 @@
 		$query = "INSERT INTO carrito (**Valores del carrito**) VALUES ('***valores del articulo a añadir***')";
 		
 		$res = mysql_query($query) or die('Consulta fallida: ' . mysql_error());
-		
-		
 		//obtenemos el id_cliente
 		
 	 
-	 //La id del cliente estara definida en la variable de sesión
-	 
-	 //TODO el boton debe estar activo solo si el cliente se registra.
+	 	//La id del cliente estara definida en la variable de sesión
 	
 	
 ?>

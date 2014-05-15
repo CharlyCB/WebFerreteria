@@ -46,4 +46,5 @@
 			}
 		}
 echo "</table>";
+//TODO elnace para eliminar el registro
 ?>
