@@ -12,6 +12,7 @@
 		mysql_select_db('prueba') or die('No se pudo seleccionar la base de datos');
 		
 		//Realizar una consulta MySQL
+		//con el GROUP BY no repetira familias en la consulta.
 		//La siguiente consulta obtiene las familias
 		
 		
@@ -21,6 +22,9 @@
 		//Lanzar consulta a la BD
 		$res = mysql_query($query) or die('Consulta fallida: ' . mysql_error());
 		
+		$filas = mysql_num_rows($res);
+		$count = 0;
+	
 			//obtenemos datos de producto:
 			$nom_produc = mysql_result($res, 0, "nombre");
 			$id_produc = mysql_result($res, 0, "id_productos");

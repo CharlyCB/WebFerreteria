@@ -1,0 +1,131 @@
+<?
+	include("config.php");
+
+		//obtenemos los valores del formulario
+		//se obtiene en un Array para facilitar su validación.
+		$registro[0] = trim($_POST['correo']); //varchar
+		$registro[1] = trim($_POST['contra']); //varchar
+		$registro[2] = trim($_POST['contra2']); //varchar, [1] =  [2]
+		$registro[3] = trim($_POST['nombre']); //varchar, no INT
+		$registro[4] = trim($_POST['apellidos']); //varchar, no INT
+		$registro[5] = trim($_POST['telefono']); //int
+		$registro[6] = trim($_POST['direccion']); //varchar
+		$registro[7] = trim($_POST['ciudad']); //varchar, No INT
+		$registro[8] = trim($_POST['cod_postal']); //int, max length 5
+		$registro[9] = trim($_POST['provincia']); //varchar, no INT
+		
+		//Caracteres permitidos para zonas exclusivamente Alfabeticas
+		$alfabetico = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ ";		
+		
+		
+		
+		
+		//Inicio de validaciones:
+		for($i = 0 ; $i < count($registro); $i++){
+			if ($registro[$i] == "" ||$registro[$i]  == null || $registro[$i] == " ") {
+			echo "El formulario debe estar completamente cumplimentado";
+				return FALSE;
+			}	
+			
+			//validacion de los campos Exclusivamente de texto alfabetico:
+			//Verifica que los campos: nombre, apellidos, ciudad, provincia; no tengan numeros.
+			else if ($i == 3 || $i == 4 || $i == 7 || $i == 9) {
+				//verifica que la cadena no tenga numeros y que solo tenga los caracteres definidos en alfabetico.
+				for ($a=0; $a<strlen($registro[$i]); $a++){ 
+				     if (strpos($alfabetico, substr($registro[$i],$a,1))===false){ 
+				         echo "Los campos nombre, apellidos, ciudad y provincia no pueden contener numeros";
+				         return false; 
+				     } 
+				} 
+			}
+			
+			//comprobamos las secciones Exclusivamente Numericas
+			else if ($i == 5 || $i == 8 ) {
+				//comprueba telefono
+				if (strlen($registro[5]) != 9) {
+					echo "El campo telefono debe contener 9 Digitos.";
+					return FALSE;
+				}
+
+				//comprueba cod postal
+				else if (strlen($registro[8]) != 5){
+					echo "El campo Codigo postal debe contener 5 digitos";
+					return FALSE;
+				}
+				//comprobamos numeros
+				else if(is_nan($registro[$i])){
+					echo "Los campos telf y cod_postal deben ser numericos";
+					return false;
+				}
+			}
+		}
+
+		//validaciones de campos individuales:
+		//campo Email
+		if (filter_var($registro[0], FILTER_VALIDATE_EMAIL) == FALSE) {
+			echo "debes introducir un correo valido";
+			return false;
+		}
+		
+		//contraseña
+		if($registro[1] != $registro[2]){
+			echo "Las contraseñas no coinciden.";
+			return false;
+		}
+		else if(strlen($registro[1]) < 6){
+			echo "La contraseña debe tener almenos 6 digitos.";
+			return false;
+		}
+		
+		//Comprobar que el Correo no existe en la BD
+		$query2 = "SELECT email FROM cliente WHERE email = '$registro[0]'";
+		
+		$res2 = mysql_query($query2) or die('Consulta fallida: ' . mysql_error());
+
+		if (mysql_num_rows($res2) > 0){
+			echo "Exite al menos un registro";
+			return false;
+		} 		
+		/*$filas = mysql_num_rows($res2);
+	
+		//Variable de comprobación
+		$exist = 0;
+	
+		if ($filas != 0) {
+			//obtenemos el valor del campo email de la BD
+			for ($i = 0; $i < $filas; $i++) {
+				$bdmail[$i] = mysql_result($res2, $i, "email");
+				if ($bdmail[$i] == $registro[0]) {
+					//si existe la variable exist cambia a 1
+					$exist = 1;
+				}
+			}
+		}
+		
+		if ($exist == 0) {
+			echo "El email que ha introducido ya existe en nuestra BD";
+			return false;
+		}*/
+		
+		//fin de las validaciones php
+		$query3 = "SELECT id_cliente FROM cliente ORDER BY id_cliente DESC LIMIT 1";
+		
+		$res3 = mysql_query($query3) or die('Consulta fallida - obtener utlimo registro: ' . mysql_error());
+		
+		$id_cliente = mysql_result($res3, 0, "id_cliente");
+		
+		$id_cliente++;
+		
+		//NO REALIZA LA INSERCION Y NO SE PORQUE!!!!!
+		
+		//Consulta para insertar los Datos del registro en la BD;
+		$query = "INSERT INTO cliente (id_cliente, email, password,nombre,apellidos,dni,telf,direccion,pais,ciudad,codpostal,dir_envio) 
+		VALUES ('$id_cliente','$registro[0]','$registro[1]','$registro[2]','$registro[3]','$registro[4]','$registro[5]','$registro[6]','$registro[7]','$registro[8]','$registro[9]')";
+		
+		//lanzamos consulta para insertar los datos en la BD;
+		$res = mysql_query($query) or die('Consulta fallida fin php: ' . mysql_error());
+		
+		echo "usuario registrado satisfactoriamente";
+		header("location: loggin.php");
+
+?>
